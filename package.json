@@ -1,0 +1,28 @@
+{
+  "name": "protractor-e2e-bootstrap",
+  "version": "0.0.2",
+  "description": "Example project to show the protractor setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jintoppy/protractor-e2e-bootstrap.git"
+  },
+  "homepage": "https://github.com/jintoppy/protractor-e2e-bootstrap.git",
+  "author": "Jinto Jose",
+  "license": "ISC",
+  "devDependencies": {
+    "protractor": "^0.20.1",
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-protractor-runner": "^0.2.4",
+    "grunt-shell-spawn": "^0.3.0",
+    "protractor-html-screenshot-reporter": "0.0.4"
+  },
+  "dependencies": {
+    "jasmine": "^2.5.3",
+    "selenium-webdriver": "^3.3.0"
+  }
+}
